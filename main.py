@@ -4,6 +4,13 @@
 # Step 2: Import necessary libraries
 import requests
 
+# Step 3: Creds From Reddit
+client_id = '' 
+client_secret = ''
+username = ''
+password = ''
+user_agent = 'python:RedditPostFetcher:v1.0 (by /u${YOUR_USERNAME}/)' 
+
 # Step 4: Get access token
 auth = requests.auth.HTTPBasicAuth(client_id, client_secret)
 data = {
